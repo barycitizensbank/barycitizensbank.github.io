@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="Images/favicon.ico"/>
+<meta charset="ISO-8859-1">
+<title>accessDEPOSIT&#153; - Demo</title>
+<style type="text/css">
+
+/*===== Common =====*/
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: .725em;
+}
+
+#mainContent {
+	background: url('Images/white_main_bg.gif') top left repeat-x;
+}
+
+h1,h2,h3,h4 {
+	margin: 0px;
+	padding: 10px 0px 0px 0px;
+}
+
+p {
+	line-height: 1.5;
+	margin: 0px;
+	padding: 5px 0px 5px 0px;
+}
+
+/*===== Main Header =====*/
+#mainContent {
+	width: 970px;
+	margin: 0px auto;
+}
+
+#mainContent .mainHeader {
+	width: 970px;
+	height: 116px;
+}
+
+#mainContent .mainHeader .logo {
+	width: 410px;
+	padding-top: 10px;
+	height: 54px;
+	position: relative;
+}
+
+#mainContent .mainHeader .logo strong {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+#mainContent .mainHeader .utlNav {
+	TEXT-ALIGN: right;
+	WIDTH: 530px;
+	FLOAT: right;
+	COLOR: #666666;
+	PADDING-TOP: 10px
+}
+
+#mainContent .mainHeader .utlNav UL {
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 10px;
+	PADDING-TOP: 0px
+}
+
+#mainContent .mainHeader .utlNav UL LI A {
+	COLOR: #666666;
+	FONT-SIZE: 11px;
+	TEXT-DECORATION: none;
+	FONT-SIZE: 0.97em;
+	FONT-FAMILY: 'Arial', 'sans-serif';
+	FONT-SIZE: 8pt;
+}
+
+#mainContent .mainHeader .utlNav UL LI A:hover {
+	COLOR: #8599a8;
+	TEXT-DECORATION: underline
+}
+
+#mainContent .mainHeader .utlNav UL LI {
+	DISPLAY: inline
+}
+
+#mainContent .mainHeader .nav {
+	WIDTH: 952px
+}
+
+#mainContent .mainHeader .nav {
+	left: -30px;
+	margin-top: 24px;
+}
+
+#mainContent .mainHeader .nav UL {
+	display: inline;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#mainContent .mainHeader .nav UL LI {
+	display: inline;
+	float: left;
+}
+/*===== Main Body =====*/
+#mainContent .mainBody {
+	width: 970px;
+	padding-top: 50px;
+}
+
+#mainContent .mainBody .leftCol {
+	width: 20px;
+	float: left;
+}
+
+#mainContent .mainBody .middleCol{
+	width: 930px;
+	margin-right: 10px;
+	float:left;
+}
+
+
+#mainContent .mainBody .rightCol {
+	width: 20px;
+	float: left;
+}
+
+/*-- Content Mod --*/
+.mod .modHeader {
+	height: 34px;
+	border: 1px solid #cccccc;
+	BACKGROUND-COLOR: #eeeeee;
+}
+
+.mod .modHeader strong {
+	padding: .6em 0em 0em 1em;
+	display: block;
+}
+
+.mod .modContent {
+	padding: 0px 12px;
+}
+
+.mod .modContent p {
+	padding: 10px 0px;
+}
+
+#mod468 .modHeader {
+	width: 930px;
+}
+
+#mod468 .divider {
+	height: 0px;
+}
+
+#mod468 .modContent {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#mod468 .modContent UL LI A {
+	COLOR: #666666;
+	FONT-SIZE: 11px;
+	FONT-SIZE: 0.97em;
+	FONT-FAMILY: 'Arial', 'sans-serif';
+}
+
+#mod468 .modContent UL LI A:hover {
+	COLOR: #8599a8;
+	TEXT-DECORATION: underline;
+}
+
+#mod468 .modContent UL LI {
+	padding-top:10px;
+}
+
+#mod468 .modFooter {
+	width: 100%;
+	height: 0px;
+	border-bottom: 1px solid #cccccc;
+}
+
+.image {
+	float: left;
+}
+
+
+.footerDivider {
+	clear: both;
+	right: 0px;
+	float: left;
+	width: 952px;
+	height: 5px;
+	line-height: 5px;
+	margin: 50px auto 0 auto;
+}
+
+/*===== Main Footer =====*/
+.mainFooter {
+	width: 970px;
+	clear: both;
+	margin: 0px auto;
+	padding-bottom: 10px;
+}
+
+.mainFooter .footerCopy {
+	clear: both;
+}
+
+.mainFooter .footerCopy p {
+	padding: 0px;
+}
+
+.mainFooter .footer {
+	padding: 15px 0px 10px 0px;
+	border-top: #8299a8 5px solid;
+}
+
+/*-- Content Mod --*/
+.mod {
+	color: #666666;
+}
+
+.mod a {
+	color: #669933;
+}
+
+.mod .modHeader strong {
+	color: #666666;
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+.mod .divider {
+	border-bottom: 1px dotted #cccccc;
+}
+
+.mod .modContent,.mod .modSubHeaderText {
+	background-color: #ffffff;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+}
+
+.mod .modTable td.selectHeader {
+	font-size: 1.1em;
+}
+
+.modAddrHeader,.modAddrHeader a {
+	color: #009470;
+	font-weight: bold;
+}
+
+/*===== Main Footer =====*/
+.mainFooter {
+	font-size: .95em;
+}
+
+.mainFooter .footerCopy p {
+	color: #999999;
+	font-size: 8pt;
+	font-family: 'Arial', 'sans-serif';
+}
+
+.mainFooter .footer {
+	font-size: 0.95em
+}
+
+.mainFooter .footer a {
+	color: #666;
+}
+
+.mainFooter .footer a:hover {
+	color: #8599A8;
+	text-decoration: underline;
+}
+
+.mainFooter .footer a#selectedFooter {
+	color: #8599A8;
+	text-decoration: underline;
+}
+
+.mainFooter .footer ul li {
+	float: left;
+	padding: 0em .3em 0em 0em;
+	list-style: none;
+}
+</style>
+
+<style type="text/css">
+.mod a {
+	color: #8599a8;
+}
+
+.mod .modSubHeaderText strong {
+	color: #1E3F7D;
+}
+
+/*===== RBS hovers ===== */
+.footerDivider {
+	border-bottom: 1px solid #cccccc;
+}
+</style>
+
+
+<body id="ctz">
+	<div id="mainContent">
+		<!-- Main Header -->
+		<div class="mainHeader">
+			<DIV class=utlNav>
+				<UL>
+					<LI><A id=citi href="https://www.citizensbank.com/commercial"
+						target=_blank>citizenscommercialbanking.com</A></LI>
+				</UL>
+			</DIV>
+			<!-- end utlNav -->
+			<div class="logo">
+				<img id='myImage' src='Images/accessDEPOSITLogo1.png'/>
+			</div>
+			<DIV style="POSITION: relative; HEIGHT: 85px;" id="mainNav" class=nav>				
+				<DIV style="BACKGROUND: no-repeat;" id="gap"></DIV>
+			</DIV>
+		</div>
+
+		<!-- Main Body -->
+		<div class="mainBody">
+			<div class="leftCol">&nbsp;</div>
+			<div class="middleCol">
+				<!-- Mod 468 -->
+				<div class="mod" id="mod468">
+					<div class="modHeader">
+						<strong><b>accessDEPOSIT&#153; Demo</b></strong>
+					</div>
+					<div class="modContent">
+						<P><BR>Our accessDEPOSIT&#153; product delivers a single, streamlined remote check deposit solution. With accessDEPOSIT you can capture and transmit digital 
+								images of checks right from your place of business. It provides you the flexibility to deposit checks images electronically from an on-site workstation 
+								or from your mobile device.  In addition to simplifying your deposit experience, accessDEPOSIT extends the banking day. Checks submitted via 
+								accessDEPOSIT are accepted until 8 p.m. ET for same-day deposits and next-day funds availability. <BR><BR>
+								Below is the demo link which we offer to our valued customers:
+						<UL>
+							<LI><a href="#" onClick="MyWindow=window.open('./Commercial/index.html','Demo','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=1076,height=733'); return false;">View accessDEPOSIT Demo</a></LI>							
+						</UL>
+						<!-- END : Mod 468 -->
+						<!-- Mod 468 -->
+						</P>
+
+					</div>
+					<div class="modFooter"></div>
+					<!-- END : Mod 468 -->
+				</div>
+				</div>
+			<div class="rightCol">&nbsp;
+			</div>
+			<div class="footerDivider" style="width: 100%; height: 5"></div>
+			<!-- Main Footer -->
+			<div class="mainFooter">
+				<div class="footer">
+					<div class="footerCopy">
+						<p>&copy;<script type="text/javascript">document.write(new Date().getFullYear());</script>
+							&nbsp;Citizens Financial Group, Inc. All rights reserved.
+							Citizens Commercial Banking is a brand name of Citizens Bank,
+							N.A. and Citizens Bank of Pennsylvania. Member FDIC.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
